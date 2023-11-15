@@ -1,0 +1,469 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_Scan
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_Scan
+ identifier : 0x273c18cd127d87dd
+ internal_properties : CAAAAAgAAABZdlJQdjh6r/ueZVk5YbOz1w756gfdarwaRPlTTUvBQAfytmhRLiL1wgaeFthNyE3eEaEaqr5lFgowLZu2zmT5wplvJCDfgbH6adm/vtAmM6soE7rP5SbpW5Kwx+21AKKZ3kKr1QMc4cL8GvZCGiAnZ4LEadhVx3qPLfKKWlw31eqheTSE44ApAVJ9lz7elx9uPoA108azR2uribaGNb0LTg0xZlVXWb4QUGi5moZRLIRdF/TaJRH7uncaPh5nT820/bFgUsknV5m92vx5nr0Od0SvmxYZgSUpq8nQEYGCNZMRs0QvM9Wt9vRYQgdpQAzFkepzy3B2HCe4YbRZh1oJifQTEk0Yzwa8bt3pRs9xmyihoWKqs420hqhSkgEiIdckIHIKsRtQAV5LlN8oEwA5R2JPx+zFe55iDo750yHRycvW/Nougb/yqrrul8wNhefEjJRIICUws1zSNyDn7a5+/yQ+CGUf7oY+YhCcYhrNocRSOplVOUC4toZgBblVvM0OWBYmJxNrUM+c+E70ylR+QdULCyvJ70TNd5Pjbvq9t7vVm0thwOZ/lRjpc/E2GA5C4OdQcXqjip0hGBl9SVf4wyHOyB45qy2lPc4E9OFo0ME/kGQZzCFqwxZ6xX5APaHpezZrQvQkcTSDHMSAvGmyhxZaUs5Qcd7DmeGx0M7ZPg0G6rKh20oKgdqTRc9l05x/Cy8V/ibovnL0JzTFUHVkeW8EZcUPprPi7b2UDYRHXS6mH31tnydXIxehbvI2rUpneKDE3rucmpaI7Epv7kEHSbUX8aouc50QC4aMvqDbfD4XCsAUMWeUe5M=
+ properties :
+  width : 320
+  height : 408
+  heightMin : 481
+ controls :
+  -
+    name : ZR_BTLE
+    identifier : 0x273c18e912baf608
+    internal_properties : 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
+    properties :
+     width : 320
+     height : 408
+    controls :
+     -
+       name : LIB_Identifiant
+       identifier : 0x273c18e912bdf608
+       internal_properties : CAAAAAgAAAAy9WhByDKRgx4ySqxfNrtjlJyDW3Z1LG41+FT2tRPGeq5/tgZzmd1WMURLePqvnyhxa4ombyR6jt/ifcZHkS/uPbpNefzBfGlgbAH41vypvQno7n8gfz1HG61MS/zlQx1w2GZfb4ns8uMSIjKsv5jJp/tOaGHtQSlExVIRNDC01qh8COnzOkIs0o0QMwMeHxsQ+gc5BkLh0XJX1QOgbrRt4htUmgHfzG+kHPbwoO3/pX8ADBQmSI6LVt/b4ekHUCUAWeD+e2g3KigWj9ey3fITQfuQmLXAGmqZd6L3cFlPz33tT/IWFTS/4v68AbgMhUvPvCRvcV6IftzdbL+SGepAIP0qi27EaN4jwlNVVhV0/QwzexNu077lohxnJcUrlpGuV7F5XhUrEmpRfO2ZMK2Vo/7s+4vqGv9RGsQgL7Kv83+hDtxF6IejebGfcRudBmyh5MTlHFnbzj+oxYFATRpVWp+er4EUPsb9C3MUUSplSu7/Db2WWLh0FMHdFHNZNhT3FSk=
+       properties :
+        x : 50
+        y : 9
+        width : 262
+        height : 21
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes : []
+     -
+       name : LIB_Nom
+       identifier : 0x273c18e912bef608
+       internal_properties : CAAAAAgAAAC+cJDxQ7NROfUrpjTF2MeKnXshtambd2iXvD1ptuRjwttZhEDGfGO3hGcKM3woA8HQMuve6TQsdHy9I2tjWzq4Q5aao8WQW5f4PAlaZTMdyofUjiOX7UnQhpqayfCJ8OKnSTG/C4eL/Or9mQYaIah203WyvOq3DSgRVuZaIT97DLZXzp4QQacb52XC4WcBchCO4u2o+peP0kWi3FBpNziaavJIk4zmW6TfGJ6odnKyhAvrQLv2IYa7F5jA0z+gn+ZzGZMOxho1KHRYlyK09u04oUtemaM0rtVhzEdLdTyWKM12fHI+gj+cBNNHREetFby+YeBa9s8xDbYX5v7H1XXtWZNvW8EYpybVhEHYdfO2f+pcLlS8Wad1FqGy+4mwwUiSbNg+1qI3DzJkwL3zFFBS7dxq9x95bs8QEEBDLjLR+SCnRruRldj8/ehZG/Uk61vUwAT0zh2EHpukKgNYWEzqXe4xFkODa58G3AE2aETBy6UtOzw=
+       properties :
+        x : 50
+        y : 34
+        width : 262
+        height : 21
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes : []
+     -
+       name : IMG_BLE
+       identifier : 0x273c198613505bcd
+       internal_properties : CAAAAAgAAABeCKC4ZSoAT8b0+zCPPTPPBTZf0zeRXYN03BSxrinUuhtnjLFBWBOARFfgITOv4nh2h8J27u4eW1zdmc16f0A2lBdXppcUwd3z4e6C1VrZhRL3Oy2lsXvDQZqVezfyz6Yimbfpe0kjQS+2EayklhdUuJ32cqGAT2cN1sxMwxonpGHZ1YM7QapAVROXLvYgUc/gUSntPyon/cx8m+V054mJ4C7bSsbyytgboIeeR/Qx2XBmECNAnOIPnAQWxT+qvlw7JcTV3JLxbNYSe3iikt0tsRVilETuJNACsaIjzpqQacVN2uth3OSlMDY3m7i1e63GU6RBEdYSCA/XsNAo8/nm2KjFgkJsMnQPK45VyV2uZAkagK/HgTlQGBJnh7cUAh/8x7eGX9ECdEw5i+NkTeLC0MWUB/ziXp4tMEmquuGJxuMb+d1xZZwNuMr1or9ZegByN5LnNvF2bk42cHNnPvMMDANKBjQheFoY+fdddX4C9DxZqAzZshGgix5vKmnR6jqYu//t4+E14KVNWe+S76tC3VqQSKzr+s89b4gxJRNsbDAXrncko6yYlC7o9se7GL/5/A+olK2+FRGFjs2vfsyaSF4/YxIr3STHjd4ZQf/tOW6oYSkZKeGB9ftee9TpTrjn9v36jSIulKWoGRXHDUd8g37Y0DOU1hdk9EoVLXzobmVIIo8zMBvEHSi8CtRcUuZfRSbb1CbX2MkyXbapSBfH5vxXGwAQEGe//ayFssfKEZxWkykDrqaXDTpRSHyn5DsMZqAnuWHtnDsmOl//e/MuStcPU9TZroDgHgsvnzndrsPKGBGyLg0zQKoeJCoTvq/5vhJaz9UHpYRyBzRdWbRF2A==
+       properties :
+        x : 12
+        y : 20
+        width : 24
+        height : 24
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes :
+         -
+           type : 18
+           enabled : false
+    columns :
+     -
+       name : ATT_ID
+       identifier : 0x273c18e912bbf608
+       internal_properties : CAAAAAgAAABBX01xS9w+X8/6i4REGhI1X/Luo6Ibn0aS3wJZ57Sym27tvWQCd6mrbee8e8s9U2TBWv+8cgZuDrdbHLBzHmRh5FxveaKwcb4Kszgm98+btS2sd4MBmCGifoooNqGlibinewkpNb9A2cELpo2i+jKDt5oGEEAH7Te2zUGEdYz2
+       type : 3
+       content :
+        identifier : 0x2543d9290318877f
+        internal_properties : CAAAAAgAAAA+ydwH69gPtZH9qoG8K7G6DH/mRhLAsIA4PXnwyQx9MV8BNs7UzvWB7NTCuEJWvBmA5CdsnUFWw3dCUBfdsaykjF1uve6LPYfwNBNWYEJulQmozEPUgRf5BggPT0njovHi1TUZ3dMWVWJDzVO7BYEECF/l1PEjm665bwXVv4LK4oa6xdFXhLX48q7GZuO+5fIY2l9pbbTIT9LWlT6k
+        type : 3
+       code_elements :
+        type_code : 46
+        p_codes : []
+     -
+       name : ATT_Nom
+       identifier : 0x273c18e912bcf608
+       internal_properties : CAAAAAgAAADe5bUla9HUzZcgO7ebNKMurn0lkDtyl70B9B+fIyusaGOZSIYnKxr/rMufq+8KtFKe2y+yhhFgtBSJ8qQZs71thM2EP4JN7PlVtO3Uh8i8mGoHFhc3mUItqVN9RLmEWOeQIpyBx9wx6vokc3XPDiqT49IOSDsCRQ==
+       type : 3
+       content :
+        identifier : 0x2543d929031a877f
+        internal_properties : CAAAAAgAAAA+ydwH69gPtZH9qoG8K7G6DH/mRhLAsIA4PXnwyQx9MV8BNs7UzvWB7NTCuEJWvBmA5CdsnUFWw3dCUBfdsaykjF1uve6LPYfwNBNWYEJulQmozEPUgRf5BggPT0njovHi1TUZ3dMWVWJDzVO7BYEECF/l1PEjm665bwXVv4LK4oa6xdFXhLX48q7GZuO+5fIY2l9pbbTIT9LWlT6k
+        type : 3
+       code_elements :
+        type_code : 46
+        p_codes : []
+    type : 30
+    code_elements :
+     type_code : 42
+     p_codes :
+      -
+        type : 35
+        enabled : false
+      -
+        type : 22
+        enabled : false
+      -
+        type : 24
+        enabled : false
+      -
+        type : 23
+        enabled : false
+      -
+        type : 25
+        enabled : false
+      -
+        code : |1-
+         
+         si ZR_BTLE <= gtabPeriphériques..Occurrence ALORS
+         	// On lance la connexion
+         	OuvreFenêtreMobile(FEN_Explorer, gtabPeriphériques[ZR_BTLE])
+         FIN
+        type : 33
+      -
+        type : 230
+        enabled : false
+      -
+        type : 241
+        enabled : false
+      -
+        type : 222
+        enabled : false
+      -
+        type : 223
+        enabled : false
+      -
+        type : 224
+        enabled : false
+ actionbar :
+  name : ACTB_ActionBar
+  identifier : 0x273c18cd127e87dd
+  internal_properties : CAAAAAgAAACeg0nhUcEKZJ8sZbNgX1DptZJUvoUtuwcxgkL1vDIqtQEIEkM/0zT5YnZfvLmjyWCRyQsfITTPmTuVAb7whxDktFhNWKJB3Qjr2gwq5lvWQsSbJCilZr/9vA1cKYsWkIW45eo9O99+++4Oq8UpX9Ee2Orqh0Zqf64MvpngHTMivCLddn/Ix3ZrHYooq4ETDAwsTRZpRM9IkwEHtn6fwT7JOv4I/HM26zVV44V2rRbmrDCtWlbd1Uk2o9rxNAhyoAz1U8S4K+t8d3y5iuyjB3fKtIAm7UEEBNkGYm8z14vh
+  controls : []
+  code_elements :
+   type_code : 125
+   p_codes :
+    -
+      type : 229
+      enabled : false
+    -
+      type : 239
+      enabled : false
+    -
+      type : 240
+      enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x29f8144500a4e5ba
+  internal_properties : CAAAAAgAAACIQ8FkyGFYwCbjRN85U3/KT6WRjQHoh/Ihrb1n/ismAOpcFogMLN/TqVSw+F7iaxy8i3OdgpItxRhMV33ptSXLzZM5yYt6QWBq9/u4qVHaO47xcAHlqS8555mddq0BQ8AbcWTp6b64vKqtSeEemdmjdSOvf2jIS83Ll9Dbujk6T3MDcnBa7W8j3eEDJTFduNm5pqHLLSZXJ0jUzogNgt4Ul170ITRaaDRrRsUD+u4Q34w/KktxpXnlT09/o16LoWmzPHCXSAtPmDfqn7NF26UJdSR0Kx0krO9pztDxEQ==
+  options :
+   -
+     name : OPT_Rafraîchir
+     identifier : 0x273c192612d5e2c9
+     internal_properties : CAAAAAgAAADAaIAliWAcGaWavvZQ0iO+hxGy7FH5P4OSfgzN5vV25+usyXl64aZ6D9uJHDqh0M9896Kd+rtFKdBTBlac9fTNMVq80d4J+xAd/2efe4CymcmQswst6UXMEkUHfoMKUGLqzIzSCo3NzAgwifoViAjB6+zO5NoiHodCX91LVTD2WMZSy6AWd3FJbo4tcW4JS2vHAiA3DQNdpksN5e74tW0IeSgiaACil0yBjKygWHXGZApPXUZT/1UmRG4cogedQb7Y+d7Xxv/xLstVb8ZXKjXV3kS5tDQZsyi2YHoH8eFquM+JQGzXSOHIuhgm4lJz
+     code_elements :
+      type_code : 26
+      p_codes :
+       -
+         code : |1-
+          
+          LanceScan()
+         type : 32
+   -
+     name : OPT_Arrêter
+     identifier : 0x273c193212d7115b
+     internal_properties : CAAAAAgAAADYd4lmyDEJSYkvFlyPS8wk7I5vtV3qpMcr6yncOEp2gwM9LIRd8rVBg1HK43k+UM43IJN6k1d5vmKDFuDE2r4uXSnL+kO3gKyyZ3IUVH6mPDR0+vJU3duW5WnM4sJDxw/0No/lh1QE96OuaYSnvZvnA73YbYezWTike3uWPhq5gpcaMD3Z0Pmybmsl4QtPoj9ZQs8GzIGHtthEX7J1c6PtFHndWelaNruAEle9xI2qLIkhFQbAm2yNd2c1O0FnI6N+/6UnvfzABGJNOXwYDBu1xmnyiK1bq/VtSzJJV8UVh24WsaChFo/C8Hh5E4SRZ9YdOQ==
+     code_elements :
+      type_code : 26
+      p_codes :
+       -
+         code : |1-
+          
+          ArrêteScan()
+         type : 32
+  code_elements :
+   type_code : 26
+   p_codes : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAABKff4sxysR+9kg8GIJ708iDvb5GJxqytSUKL54fomJ9xlu42EWUFv/+en+BSQDmdB2krqVslwL/1eyQDVw8sffQk7lF3aDfZNzV/+zROsnKAy1jaSejRR5UgML
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      PROCEDURE MaFenêtre()
+      
+      gnEtatBluetooth 			est un entier
+      gbStopListePeriphériques 	est un booléen
+      gtabPeriphériques 			est un tableau de BTLEPériphériques
+   -
+     internal_properties : CAAAAAgAAAA/LHQ31vD8tmoMdU3Uuk6dybfBIZyteJN/CcjG4EWn4dUProIKZv+6Q4J77N+q5tvwWVWpCw9LuATdjeEN8X+oUqKiD+D+Uj8Z4SE687iQUvflJ94/SjsST0MOkQ8H/WdquXEabwJHBGlVMRTdQo3zVShl/8RmTwVVsUh6LtPt+7tqbxYZAsXCQAnRBjkqPahISQsAozs5l4WWp0q2tjw=
+     code : |1+
+      
+      // Test du simulateur
+      SI EnModeSimulateur() ALORS
+      	Erreur("Le bluetooth n'est pas disponible en mode simulateur. Veuillez exécuter cette application sur un appareil Android ou iOS.")
+      	Ferme()
+      FIN
+      
+      
+      // Test de la version de l'os
+      <COMPILE SI TypeConfiguration=Android>
+      	SI SysVersionAndroid(sysVersionApiLevel) < 18 ALORS
+      		Erreur("Votre version d'Android ne supporte pas le bluetooth 4. Vous devez disposer d'un appareil sous Android 4.3 au minimum.")
+      		ferme()
+      	FIN
+      <sinon>
+      	nVersion est un entier = ExtraitChaîne(SysVersionIOS(),1,".")
+      	SI nVersion < 9 ALORS
+      		Erreur("Votre version d'iOS ne supporte pas le bluetooth 4. Vous devez disposer d'un appareil sous iOS 9.0 au minimum.")
+      		Ferme()
+      	FIN
+      <FIN>
+      
+      
+      // Lancement du scan
+      LanceScan()
+     type : 34
+   -
+     code : |1+
+      
+      
+     type : 234
+   -
+     code : |1+
+      
+      
+     type : 165
+   -
+     code : |1+
+      
+      
+     type : 177
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1+
+      
+      
+     type : 2
+  procedures :
+   -
+     name : LanceScan
+     internal_properties : CAAAAAgAAAC34ewFyg3f7YWUrdtdx9daF2eo6FvHG8cZR0XAN5GKJPy+GVyIjUgSTc60qfKBZpy6FhNvHlCqvVjzOsKEuF7/viD3vuU7XX0eeoQKj84zEm/A1lwdxQ/acNLKvvttGYQ9BXyElraP6mgcGMHK+WbL/5bCg1ZqVOU4FG5CDWZwbaPSenYWKo7BFwlWPOWGDhRxMTuehCgTvPL73wYnU+3uQoY=
+     procedure_id : 1674241830394036166
+     type_code : 14
+     code : |1-
+      // Résumé : Lance une recherche de périphérique bluetooth
+      //
+      PROCEDURE LanceScan()
+      
+      gbStopListePeriphériques = faux
+      
+      OPT_Arrêter..Visible = vrai
+      OPT_Rafraîchir..Visible = faux
+      SablierRéseau(vrai)
+      
+      ZoneRépétéeSupprimeTout(ZR_BTLE)
+      
+      // Initialisation du bluetooth
+      SI PAS BLEInit() ALORS
+      	ToastAffiche("Bluetooth non disponible")
+      	RETOUR
+      FIN
+      
+      TANTQUE gnEtatBluetooth <> btActif _et_ pas gbStopListePeriphériques 
+      	Multitâche(-10)
+      FIN
+      
+      // On liste les périphériques
+      BLEListe()
+     type : 458752
+   -
+     name : BLEInit
+     internal_properties : CAAAAAgAAAAtMmZ05oBkBTH+fFZbmeSednNKc9z3Hgnnik+UG2WKIbda7xc42yppJiB9AcLGOfRQdXD9/bsee3K6rjzv+rsNcgOiPHaLerCS0sWxXTkhYciZyMhaCsV9Wrqd5E+RvWOM0VX6SypKINVbn3kLZ1rt1LdGHFYc/YcvGuGy0KoHyYEYZXfvGz3hWvfMBCyZh+17dxvFb6kjr52AeAh+QB7PUP6Hn5STBP95YKU5PjqPa15JXt955+PqWNsyfOd7DUgzFyjP
+     procedure_id : 1674242015077673222
+     type_code : 14
+     code : |1-
+      // Résumé : Initialise le bluetooth
+      //
+      PROCEDURE BLEInit()
+      
+      bActif est un booléen
+      
+      
+      
+      <compile si TypeConfiguration=android>
+      	nEtatBTLE est un entier
+      	
+      	// Vérification de l'état du Bluetooth
+      	nEtatBTLE = BTLEEtat()
+      	
+      	si nEtatBTLE <> btActif ALORS
+      		//1 : &Activer
+      		//2 : &Ne pas activer
+      		
+      		SELON Dialogue(<§?173C1A7400F4FC35§>)
+      			// &Activer
+      			
+      			CAS 1
+      				// Activation du Bluetooth
+      				BTActive(Vrai)
+      				bActif = vrai
+      				
+      				tantque BTLEEtat() <> btActif
+      					Multitâche(-10)
+      				FIN
+      			// &Ne pas activer
+      			CAS 2
+      				bActif = faux
+      		FIN
+      	SINON 
+      		bActif = vrai
+      	FIN
+      <sinon>
+      	bActif = vrai
+      <FIN>
+      
+      
+      si bActif ALORS
+      	<compile SI TypeConfiguration=Android>
+      		CB_BLEInit(btActif)
+      	<sinon>
+      		BTLEInitialise(CB_BLEInit)
+      	<FIN>
+      FIN
+      
+      renvoyer bActif
+     type : 458752
+   -
+     name : CB_BLEInit
+     internal_properties : CAAAAAgAAACoEDfwOTPoBCATrSIe2IMmcOKv6HMOMcAGEYWCZmGyvqw3cnr/MNOM+sX69kW5LsBYapSHz4be+0hMGLkPJBC9Fh4LKI2zSoK/i1CK7dIyNF4itgogZPyJp/LupVHqgquOWP7y7bRcDeztE8W/7B4IUDJrK4LjXllY4O9eL10OSduhXsquQPvzXAFf7x8neb8TEE62Dw8/97o4LcjHfuWXENe8yYnrdHXJl4F+Ia8o0zeD+6P2dVqgMchZ8bVyank5UkmNK07vL0TdBCZTSJgnDm5mpdbEIw==
+     procedure_id : 1674242663621687272
+     type_code : 14
+     code : |1-
+      // Résumé : Fin de l'initialisation du bluetooth
+      // Syntaxe :
+      //CB_BLEInit (<nEtat> est entier)
+      //
+      // Paramètres :
+      //	nEtat (entier) : Etat du bluetooth
+      //
+      PROCEDURE CB_BLEInit(nEtat est un entier)
+      
+      gnEtatBluetooth = nEtat
+      
+      si gnEtatBluetooth <> btActif ALORS
+      	Erreur("Le Bluetooth n'est pas activé sur votre appareil.","Veuillez l'activer afin d'utiliser cet exemple.")
+      FIN
+     type : 458752
+   -
+     name : BLEListe
+     internal_properties : CAAAAAgAAAAyeMENbo1j0L2yZCyvfDgsNw3Ba5AdY8y7zY+QzfIUTMvOvdxw7IteQl7YemP76V28CD3lpmfB2ZQD/sw2QMzztGg6cmkoEpAs4Pc7pfY84sb/GpFLuvsY/Z2oE3i9CcQIdnfUdB4nbYckwZbl8wSeqIbVTan0FoSdFtqfEgqRgy6QKqSQH8S483oDJAP4BuIckEwFdQ8vF3zMPXSXN37K+BXpwhMOA4d4Z1hVedD4XAs14XA+h8YjlzyH3too73W+9Jci9FXkRpVH4uk=
+     procedure_id : 1674243101708519125
+     type_code : 14
+     code : |1+
+      // Résumé : Liste les périphériques bluetooth
+      // 
+      PROCEDURE BLEListe()
+      
+      gbStopListePeriphériques = faux
+      TableauSupprimeTout(gtabPeriphériques)
+      
+      // Lancement du scan
+      BTLEListePériphérique(CB_BLEListe)
+     type : 458752
+   -
+     name : CB_BLEListe
+     internal_properties : CAAAAAgAAAD1lrTZd97I6+eSvmqZHq+BRyXrQV8+1kzp6bsEclzT0u3bYSw5nx3TMv/ZUM52Q2wkKrkNHZbbPxFIjNGjqWlD7JYbHD5eketkzFMb0GFlp0qHG4EIzOdM7FIr3qjFn8HUB1+AvajAnkdtwR+Z6WSb4t2k0szmzyGF3AtWctBvkcuqh0X/Gz2h2tcu5uqjCXP30/uHCSe1ASNu/K7eqEDtRsjNzV5Z0MtVdLE9fjppdQWbWG8=
+     procedure_id : 1674243106003552207
+     type_code : 14
+     code : |1+
+      // Résumé : Callback appelée lorsqu'un périphérique est découvert
+      // Syntaxe :
+      //[ <Résultat> = ] CB_BLEListe (<MonPériph> est BTLEPériphérique)
+      //
+      // Paramètres :
+      //	MonPériph (BTLEPériphérique) :Le périphérique trouvé
+      
+      PROCEDURE CB_BLEListe(MonPériph est un BTLEPériphérique)
+      
+      bExiste est un booléen
+      
+      si gbStopListePeriphériques ALORS
+      	renvoyer faux
+      FIN
+      
+      // On vérifie si on n'a pas déjà ajouté ce périphérique
+      pour TOUT tPeriph de gtabPeriphériques 
+      	si tPeriph.Identifiant = MonPériph.Identifiant ALORS
+      		bExiste = vrai
+      	FIN
+      FIN
+      
+      si pas bExiste ALORS
+      	// Ajout du périphérique en mémoire
+      	TableauAjoute(gtabPeriphériques,MonPériph)
+      	
+      	// Ajout du périphérique dans la Zone répétée
+      	sNom est une chaîne = MonPériph.Nom
+      	si sNom ~= "" ALORS
+      		sNom = "Périphérique sans nom"
+      	FIN
+      	ZoneRépétéeAjouteLigne(ZR_BTLE,MonPériph.Identifiant,sNom)
+      FIN
+      
+      renvoyer vrai
+     type : 458752
+   -
+     name : ArrêteScan
+     internal_properties : CAAAAAgAAAA+ENbkpmVzqbucWEi3EAfTsKg7Jr6pt11VtCqfP3E8WOTJPWLShV/vW8lXqJ3SoALJpIwdk5iFG+4EvwK9UMhS/4GFCRRRsN2Jsl6ezFsnvW8hmEgjQjKSiYpbXJd+b2VC1EyCqmvaQiNKO//GYBhUrMeUZ6BRbccpUjsMBx0S+oeMncnNJJQusSIeZYySRegrd76flw==
+     procedure_id : 1674245833310452126
+     type_code : 14
+     code : |1-
+      // Résumé : Arrête le scan du bluetooth
+      //
+      PROCEDURE ArrêteScan()
+      
+      gbStopListePeriphériques = vrai
+      OPT_Arrêter..Visible = faux
+      OPT_Rafraîchir..Visible = vrai
+      SablierRéseau(faux)
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAAB6ragasMBWLfpsSyU19J6lAvYEqFWd1xYOjmHr1XHVZOVmechqLo1vKvfoAJhHeXL59P8BudVQfrBZ/U9vpjDz5RFibMKKm/84EA==
+  original_name : _11
+resources :
+ string_res :
+  identifier : 0x173c18be00b94d54
+  internal_properties : CAAAAAgAAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+ dialogs :
+  -
+    identifier : 0x173c1a7400f4fc35
+    internal_properties : CAAAAAgAAADj0a9A3ZOgBYyQBp47+NQwNevNYtSALMrhnRjEPzA256e8UA==
+    label :
+     fr-FR : Votre bluetooth n'est pas activé. Activez le afin de pouvoir scanner les périphériques autour de vous.
+    image : {}
+    cancel_button : 1
+    buttons :
+     -
+       label :
+        fr-FR : Activer
+       image : {}
+       value : 1
+     -
+       label :
+        fr-FR : Ne pas activer
+       image : {}
+       value : 2
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe
